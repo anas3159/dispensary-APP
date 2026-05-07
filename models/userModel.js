@@ -26,6 +26,7 @@ const userSchema = new mongoose.Schema({
     type: Number,
     require: true,
   },
+  token: String,
 });
 
 module.exports = mongoose.model("Users", userSchema);
